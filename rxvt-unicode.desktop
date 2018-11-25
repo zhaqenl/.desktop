@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=urxvt
+Icon=utilities-terminal
+Comment=A clone of the well-known terminal emulator rxvt
+Terminal=false
+Name=URxvt
+GenericName=rxvt-unicode
+MimeType=
+Categories=System;TerminalEmulator;
+

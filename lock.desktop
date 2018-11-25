@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lock
+Comment=Lock screen
+Exec=xscreensaver-command -l
+Icon=xscreensaver
+Type=Application
+Terminal=true
+Categories=Settings;DesktopSettings;Security;X-XFCE;

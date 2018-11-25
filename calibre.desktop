@@ -1,0 +1,22 @@
+[Desktop Entry]
+Type=Application
+Exec=/nix/store/my1ld28k0hg79g5sk80c44glhy7brlw1-calibre-3.31.0/bin/calibre --detach %F
+Terminal=false
+Name=calibre
+Categories=Office
+Icon=/nix/store/my1ld28k0hg79g5sk80c44glhy7brlw1-calibre-3.31.0/share/calibre/images/library.png
+Comment=Manage, convert, edit, and read e-books
+GenericName=E-book library management
+MimeType=application/x-mobipocket-subscription;application/vnd.openxmlformats-officedocument.wordprocessingml.document;text/html;application/x-cbc;application/ereader;application/oebps-package+xml;image/vnd.djvu;application/x-sony-bbeb;application/vnd.ms-word.document.macroenabled.12;text/rtf;text/x-markdown;application/pdf;application/x-cbz;application/x-mobipocket-ebook;application/x-cbr;application/x-mobi8-ebook;text/fb2+xml;application/vnd.oasis.opendocument.text;application/epub+zip;text/plain;application/xhtml+xml
+Actions=Edit;Viewer;
+
+[Desktop Action Edit]
+Name=Edit E-book
+Icon=/nix/store/my1ld28k0hg79g5sk80c44glhy7brlw1-calibre-3.31.0/share/calibre/images/tweak.png
+Exec=/nix/store/my1ld28k0hg79g5sk80c44glhy7brlw1-calibre-3.31.0/bin/ebook-edit --detach %F
+
+[Desktop Action Viewer]
+Name=E-book Viewer
+Icon=/nix/store/my1ld28k0hg79g5sk80c44glhy7brlw1-calibre-3.31.0/share/calibre/images/viewer.png
+Exec=/nix/store/my1ld28k0hg79g5sk80c44glhy7brlw1-calibre-3.31.0/bin/ebook-viewer --detach %F
+
